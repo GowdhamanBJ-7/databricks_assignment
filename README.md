@@ -4,27 +4,6 @@ This project demonstrates an **end-to-end ETL pipeline in Databricks** with a **
 
 ---
 
-## 📂 Project Structure  
-
-databricks_assignment/.
-│
-├── source_to_bronze/.
-│ ├── utils.py / utils_notebook # Reusable helper functions.
-│ └── employee_source_to_bronze # Driver notebook: reads raw CSVs → Bronze.
-│
-├── bronze_to_silver/.
-│ └── employee_bronze_to_silver # Cleaning & schema enforcement → Silver.
-│
-├── silver_to_gold/.
-│ └── employee_silver_to_gold # Transformations & aggregations → Gold.
-│
-├── api_ingestion/.
-│ └── person_info_pipeline # API pipeline from ReqRes → Delta.
-│
-└── README.md
-
-
----
 
 ## 🔄 ETL Pipeline  
 
